@@ -1,4 +1,4 @@
-# Sports-Net
+# Sports.Net
 A project created to learn and better understand C# and .NET 6
 
 An online product catalog that customers can browse by category and page, a shopping cart 
