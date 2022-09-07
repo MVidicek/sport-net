@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G5yc615TgbjV4tCNC6ZsHQUMRshK71pPbfqJm+XypxOhJUkaPRM1M9O51sIZKNzdzG8OtcsEZFIbrW1IDsr5/g==",
+  "dgSpecHash": "20rgx1wBXxWeQue2F+nlZvpO4l5D8T0N7qhphU2RzEJ+Ai4qAshmbhH+HvzAVlEwoGNNQWJG5o7jmoUfElD4Dw==",
   "success": true,
-  "projectFilePath": "S:\\Projects\\.NET\\sport-net\\SportsSln\\SportsStore\\SportsStore.csproj",
+  "projectFilePath": "S:\\Projects\\.NET\\SportsNet\\SportsSln\\SportsStore\\SportsStore.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

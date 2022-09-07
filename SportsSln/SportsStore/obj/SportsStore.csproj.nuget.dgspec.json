@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "S:\\Projects\\.NET\\sport-net\\SportsSln\\SportsStore\\SportsStore.csproj": {}
+    "S:\\Projects\\.NET\\SportsNet\\SportsSln\\SportsStore\\SportsStore.csproj": {}
   },
   "projects": {
-    "S:\\Projects\\.NET\\sport-net\\SportsSln\\SportsStore\\SportsStore.csproj": {
+    "S:\\Projects\\.NET\\SportsNet\\SportsSln\\SportsStore\\SportsStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "S:\\Projects\\.NET\\sport-net\\SportsSln\\SportsStore\\SportsStore.csproj",
+        "projectUniqueName": "S:\\Projects\\.NET\\SportsNet\\SportsSln\\SportsStore\\SportsStore.csproj",
         "projectName": "SportsStore",
-        "projectPath": "S:\\Projects\\.NET\\sport-net\\SportsSln\\SportsStore\\SportsStore.csproj",
+        "projectPath": "S:\\Projects\\.NET\\SportsNet\\SportsSln\\SportsStore\\SportsStore.csproj",
         "packagesPath": "C:\\Users\\Marko\\.nuget\\packages\\",
-        "outputPath": "S:\\Projects\\.NET\\sport-net\\SportsSln\\SportsStore\\obj\\",
+        "outputPath": "S:\\Projects\\.NET\\SportsNet\\SportsSln\\SportsStore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Marko\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,7 +45,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -57,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
