@@ -1,14 +1,11 @@
-﻿namespace SportsStore.Models
-{
-    public class EFStoreRepository : IStoreRepository
-    {
-        private StoreDBContext _dbContext;
+﻿namespace SportsStore.Models {
+    public class EFStoreRepository : IStoreRepository {
+        private StoreDbContext context;
 
-        public EFStoreRepository(StoreDBContext ctx)
-        {
-            _dbContext = ctx;
-        }   
+        public EFStoreRepository(StoreDbContext ctx) {
+            context = ctx;
+        }
 
-        public IQueryable<Product> Products => _dbContext.Products;
+        public IQueryable<Product> Products => context.Products;
     }
 }
