@@ -11,7 +11,7 @@ namespace SportsStore.Controllers {
             repository = repo;
         }
 
-        public ViewResult Index(int productPage = 1)
+        public ViewResult Index(string? category, int productPage = 1)
            => View(new ProductsListViewModel {
                Products = repository.Products
                    .OrderBy(p => p.ProductID)
@@ -21,7 +21,8 @@ namespace SportsStore.Controllers {
                    CurrentPage = productPage,
                    ItemsPerPage = PageSize,
                    TotalItems = repository.Products.Count()
-               }
+               },
+               CurrentCategory = category
            });
     }
 }
